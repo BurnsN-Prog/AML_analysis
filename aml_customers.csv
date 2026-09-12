@@ -1,0 +1,251 @@
+customer_id,region,customer_segment,risk_rating,occupation,avg_monthly_inflow,account_tenure_years
+1,Northeast,Mass Market,Low,Technology,11627.71,3
+2,Northeast,Mass Market,High,Education,100,3
+3,West,Affluent,Low,Hospitality,16243.87,5
+4,South,Mass Market,Medium,Consulting,4360.58,2
+5,Northeast,Small Business,Medium,Self-Employed,12211.72,2
+6,Midwest,Emerging Affluent,High,Technology,9527.93,6
+7,West,Affluent,Medium,Technology,17499.18,2
+8,South,Mass Market,Low,Construction,2098.78,4
+9,South,Small Business,Low,Consulting,13604.21,1
+10,South,Mass Market,Low,Hospitality,4793.79,5
+11,Northeast,Emerging Affluent,Medium,Retail,7692.67,7
+12,Midwest,Affluent,Medium,Retail,19901.15,7
+13,Midwest,Mass Market,Low,Retail,4397.15,4
+14,West,Mass Market,Low,Education,12345.05,7
+15,South,Small Business,Medium,Education,13963.92,5
+16,Northeast,Mass Market,Medium,Consulting,3985.06,7
+17,Northeast,Emerging Affluent,Low,Healthcare,8834.45,4
+18,Northeast,Mass Market,High,Technology,5372.2,1
+19,South,Emerging Affluent,Low,Education,13550.45,6
+20,Midwest,Emerging Affluent,Low,Healthcare,5663.21,8
+21,Northeast,Emerging Affluent,Low,Education,9506.62,2
+22,South,Mass Market,Low,Retail,13218.52,6
+23,South,Emerging Affluent,Medium,Retail,15384.31,4
+24,South,Mass Market,Low,Construction,8953.26,1
+25,Northeast,Emerging Affluent,Low,Self-Employed,8394.05,4
+26,Midwest,Mass Market,Low,Consulting,100,1
+27,Midwest,Mass Market,Low,Consulting,5536.04,8
+28,West,Mass Market,High,Retail,6841.13,7
+29,Northeast,Mass Market,Low,Education,100,4
+30,South,Mass Market,Low,Construction,100,5
+31,West,Mass Market,Medium,Self-Employed,3148.36,8
+32,Midwest,Affluent,Low,Self-Employed,19908.55,7
+33,West,Emerging Affluent,Low,Healthcare,5518.51,7
+34,Midwest,Mass Market,High,Construction,1739.65,8
+35,West,Emerging Affluent,High,Education,4733.9,6
+36,Midwest,Mass Market,High,Self-Employed,8687.71,5
+37,South,Mass Market,Low,Education,7035.77,7
+38,Northeast,Emerging Affluent,Medium,Retail,6486.47,3
+39,West,Mass Market,Medium,Education,7153.12,6
+40,Midwest,Mass Market,Low,Education,5405.56,8
+41,Midwest,Small Business,Low,Technology,19515.45,5
+42,Midwest,Small Business,Low,Self-Employed,10073.66,5
+43,Northeast,Emerging Affluent,Low,Retail,9149.98,3
+44,Midwest,Mass Market,Low,Construction,3002.33,1
+45,West,Mass Market,Low,Education,18446.4,7
+46,Northeast,Mass Market,Medium,Hospitality,717.06,4
+47,West,Mass Market,High,Construction,2959.63,8
+48,South,Small Business,Low,Technology,14920.41,7
+49,Midwest,Mass Market,High,Consulting,2128.46,2
+50,Midwest,Mass Market,Low,Hospitality,100,6
+51,South,Mass Market,Low,Hospitality,100,2
+52,Northeast,Mass Market,Low,Construction,7213.89,7
+53,Midwest,Mass Market,Medium,Hospitality,11730.87,7
+54,Northeast,Small Business,Medium,Hospitality,13227.2,7
+55,South,Small Business,Medium,Education,3060.45,3
+56,Midwest,Mass Market,Low,Technology,100,2
+57,South,Mass Market,Low,Retail,11804.35,3
+58,West,Emerging Affluent,Low,Hospitality,10741.16,6
+59,Northeast,Mass Market,Medium,Consulting,8814.13,3
+60,South,Small Business,Medium,Retail,14776.92,1
+61,Northeast,Emerging Affluent,Low,Construction,12155.43,7
+62,Midwest,Mass Market,Low,Healthcare,100,4
+63,West,Mass Market,Low,Consulting,9108.67,3
+64,South,Small Business,Low,Education,11027.3,1
+65,Northeast,Affluent,Medium,Hospitality,20519.88,4
+66,West,Mass Market,Low,Education,100,6
+67,South,Emerging Affluent,High,Hospitality,7405.31,3
+68,Midwest,Emerging Affluent,Medium,Consulting,4231.95,3
+69,Northeast,Mass Market,Low,Self-Employed,4643.16,3
+70,West,Mass Market,Low,Hospitality,4935.32,1
+71,West,Mass Market,Low,Education,10188.96,8
+72,Northeast,Affluent,Low,Construction,17817.27,3
+73,South,Emerging Affluent,High,Construction,10519.86,3
+74,West,Emerging Affluent,Medium,Education,10607.43,8
+75,Midwest,Affluent,High,Technology,20793.34,6
+76,Midwest,Small Business,Low,Self-Employed,12891.02,1
+77,South,Small Business,Low,Education,9054.67,1
+78,Northeast,Affluent,High,Technology,18111.13,6
+79,West,Mass Market,Low,Retail,5693.74,1
+80,South,Mass Market,High,Healthcare,6562.52,4
+81,South,Small Business,Medium,Self-Employed,12923.36,4
+82,South,Emerging Affluent,Medium,Self-Employed,824.99,3
+83,South,Small Business,Low,Education,9117.3,3
+84,West,Affluent,High,Consulting,16311.0,7
+85,Midwest,Emerging Affluent,Low,Construction,9289.91,3
+86,South,Mass Market,Low,Education,3314.04,1
+87,Northeast,Mass Market,High,Consulting,1120.55,8
+88,South,Mass Market,Low,Hospitality,1430.96,3
+89,Midwest,Emerging Affluent,Medium,Healthcare,10203.73,1
+90,Midwest,Mass Market,Low,Self-Employed,9227.39,4
+91,Northeast,Emerging Affluent,Medium,Self-Employed,7704.76,2
+92,South,Emerging Affluent,Low,Technology,8795.48,8
+93,Midwest,Small Business,Medium,Education,9696.87,4
+94,South,Emerging Affluent,Medium,Consulting,12520.12,7
+95,Northeast,Small Business,Low,Technology,18894.85,7
+96,South,Mass Market,Low,Technology,6188.18,7
+97,Midwest,Affluent,Low,Consulting,16298.77,2
+98,South,Mass Market,Low,Retail,7999.52,5
+99,Northeast,Mass Market,Low,Hospitality,7369.94,6
+100,Midwest,Mass Market,Low,Retail,832.83,2
+101,West,Mass Market,Low,Education,9188.82,5
+102,West,Mass Market,Low,Self-Employed,100,8
+103,West,Mass Market,Low,Consulting,100,2
+104,Northeast,Small Business,Low,Self-Employed,9015.68,4
+105,West,Emerging Affluent,Medium,Consulting,8476.8,2
+106,Northeast,Mass Market,Low,Self-Employed,910.9,2
+107,Northeast,Small Business,Low,Consulting,12059.18,5
+108,Northeast,Mass Market,Low,Technology,7830.8,7
+109,Midwest,Small Business,Low,Construction,16738.75,6
+110,South,Emerging Affluent,Low,Healthcare,10842.68,6
+111,Northeast,Small Business,Low,Education,10745.08,3
+112,South,Small Business,Low,Consulting,8150.63,8
+113,South,Mass Market,Low,Retail,381.23,4
+114,Northeast,Small Business,Low,Healthcare,15907.82,6
+115,Northeast,Emerging Affluent,Low,Retail,13536.04,8
+116,West,Mass Market,Low,Construction,100,2
+117,Midwest,Mass Market,High,Retail,1190.62,3
+118,South,Mass Market,Medium,Technology,2957.0,2
+119,South,Emerging Affluent,Medium,Consulting,4841.63,6
+120,Northeast,Affluent,Medium,Hospitality,15724.54,2
+121,Northeast,Mass Market,Low,Retail,2499.79,7
+122,South,Small Business,Low,Technology,11032.59,7
+123,South,Emerging Affluent,Low,Construction,8869.6,5
+124,West,Mass Market,Medium,Technology,100,3
+125,Midwest,Small Business,Low,Hospitality,10563.76,2
+126,Northeast,Mass Market,Low,Healthcare,3995.87,2
+127,South,Mass Market,High,Consulting,6231.1,6
+128,West,Mass Market,High,Self-Employed,10754.42,5
+129,South,Mass Market,Medium,Construction,6039.84,3
+130,West,Mass Market,Medium,Retail,5643.81,5
+131,Midwest,Small Business,Low,Education,10783.7,7
+132,Northeast,Mass Market,Medium,Technology,2962.43,8
+133,South,Mass Market,Low,Self-Employed,2884.61,6
+134,South,Emerging Affluent,Low,Retail,4428.3,8
+135,West,Small Business,High,Consulting,7302.47,6
+136,Northeast,Emerging Affluent,Medium,Technology,9185.66,5
+137,West,Mass Market,Medium,Technology,3685.86,3
+138,West,Emerging Affluent,Medium,Healthcare,10907.79,8
+139,South,Emerging Affluent,Low,Construction,6999.7,8
+140,Northeast,Emerging Affluent,Low,Healthcare,2981.67,6
+141,South,Emerging Affluent,Low,Construction,3146.26,6
+142,Midwest,Mass Market,Low,Construction,5657.32,4
+143,West,Mass Market,Medium,Self-Employed,3789.11,4
+144,South,Affluent,Low,Self-Employed,17144.23,7
+145,South,Mass Market,Low,Education,3427.54,8
+146,West,Emerging Affluent,Low,Technology,1649.14,5
+147,Northeast,Emerging Affluent,Medium,Consulting,8517.23,2
+148,Midwest,Small Business,Low,Technology,6473.96,7
+149,Midwest,Affluent,Low,Retail,16083.99,1
+150,Northeast,Small Business,Medium,Technology,14714.22,5
+151,West,Mass Market,Low,Hospitality,7730.21,2
+152,Midwest,Mass Market,Low,Healthcare,3284.39,5
+153,Midwest,Affluent,Medium,Hospitality,15838.84,5
+154,Midwest,Mass Market,Low,Education,1006.73,3
+155,West,Small Business,Low,Education,11054.2,2
+156,Midwest,Small Business,Low,Hospitality,5075.09,1
+157,West,Emerging Affluent,Medium,Technology,10607.22,5
+158,Northeast,Emerging Affluent,Low,Hospitality,8703.01,7
+159,Midwest,Mass Market,Low,Consulting,687.78,1
+160,Midwest,Mass Market,High,Consulting,2823.82,3
+161,South,Mass Market,Low,Technology,100,6
+162,Northeast,Mass Market,Medium,Retail,3269.36,8
+163,South,Small Business,Medium,Technology,6926.69,7
+164,South,Small Business,Low,Hospitality,13322.91,2
+165,Northeast,Affluent,Medium,Self-Employed,8212.52,1
+166,West,Mass Market,Medium,Retail,7764.66,5
+167,South,Mass Market,Low,Self-Employed,100,3
+168,West,Emerging Affluent,Low,Education,8128.11,2
+169,Midwest,Small Business,Low,Hospitality,12989.24,5
+170,West,Emerging Affluent,Medium,Construction,9685.14,3
+171,Midwest,Mass Market,Low,Consulting,1740.44,7
+172,Northeast,Mass Market,Medium,Retail,6756.9,5
+173,Midwest,Mass Market,Low,Construction,100,2
+174,West,Mass Market,Medium,Self-Employed,11559.49,8
+175,Northeast,Mass Market,Low,Education,8015.88,7
+176,Midwest,Emerging Affluent,Low,Construction,10064.1,2
+177,Northeast,Mass Market,Low,Education,4104.39,8
+178,Northeast,Small Business,Low,Education,12414.57,2
+179,Midwest,Small Business,Low,Hospitality,8714.78,1
+180,West,Affluent,Low,Consulting,21215.77,5
+181,Midwest,Mass Market,Low,Education,10131.81,5
+182,Midwest,Affluent,Low,Education,14097.88,3
+183,Midwest,Mass Market,Medium,Self-Employed,3267.5,3
+184,South,Mass Market,Low,Consulting,13464.52,2
+185,Midwest,Mass Market,Medium,Retail,3097.88,4
+186,Midwest,Mass Market,Low,Healthcare,4667.75,6
+187,Midwest,Mass Market,Low,Hospitality,7010.73,1
+188,South,Emerging Affluent,Medium,Hospitality,3842.81,7
+189,Northeast,Emerging Affluent,Low,Self-Employed,7401.71,1
+190,West,Mass Market,Low,Technology,416.32,4
+191,South,Small Business,Low,Education,12531.96,7
+192,South,Emerging Affluent,Low,Hospitality,7916.45,4
+193,West,Mass Market,High,Retail,6653.51,4
+194,Northeast,Mass Market,Low,Construction,4747.55,5
+195,Northeast,Emerging Affluent,Low,Consulting,14460.03,5
+196,Northeast,Affluent,Low,Self-Employed,14047.83,8
+197,Midwest,Mass Market,Low,Hospitality,100,1
+198,West,Small Business,Medium,Education,15195.84,7
+199,Midwest,Mass Market,Low,Technology,6010.57,7
+200,South,Mass Market,Low,Construction,100,6
+201,South,Mass Market,Medium,Technology,2347.06,3
+202,Northeast,Emerging Affluent,Low,Education,7340.43,2
+203,West,Mass Market,High,Self-Employed,1410.61,2
+204,Midwest,Emerging Affluent,Low,Retail,7452.6,8
+205,Northeast,Small Business,Low,Self-Employed,10039.93,5
+206,West,Small Business,Low,Construction,13153.1,5
+207,South,Mass Market,Low,Retail,5136.08,4
+208,West,Mass Market,High,Self-Employed,100,1
+209,Midwest,Mass Market,Low,Self-Employed,4530.47,8
+210,West,Affluent,High,Hospitality,20347.05,2
+211,Northeast,Emerging Affluent,Low,Technology,16755.63,2
+212,South,Mass Market,Low,Retail,6251.42,3
+213,Northeast,Emerging Affluent,Low,Technology,11420.42,3
+214,South,Mass Market,Medium,Self-Employed,6197.8,8
+215,West,Small Business,High,Hospitality,15766.14,3
+216,Northeast,Mass Market,Low,Self-Employed,435.93,1
+217,Midwest,Emerging Affluent,Medium,Construction,10565.3,6
+218,West,Mass Market,Low,Healthcare,100,8
+219,Northeast,Mass Market,Medium,Technology,11933.16,7
+220,West,Mass Market,Medium,Consulting,903.73,8
+221,Northeast,Mass Market,Low,Retail,100,8
+222,West,Mass Market,Low,Self-Employed,100,6
+223,Northeast,Affluent,Medium,Retail,18638.18,7
+224,West,Mass Market,Low,Consulting,5276.31,2
+225,Midwest,Mass Market,Medium,Self-Employed,7056.09,3
+226,South,Emerging Affluent,Low,Education,5491.31,2
+227,West,Small Business,Medium,Technology,6357.01,3
+228,Northeast,Emerging Affluent,Low,Construction,12043.77,2
+229,South,Small Business,Low,Education,8575.08,8
+230,West,Mass Market,Medium,Retail,7604.2,2
+231,Northeast,Small Business,Medium,Retail,7680.37,3
+232,West,Mass Market,Medium,Retail,2229.94,8
+233,Northeast,Mass Market,Medium,Consulting,6369.89,7
+234,Northeast,Mass Market,Low,Construction,8129.0,8
+235,West,Small Business,Medium,Technology,12066.5,1
+236,South,Emerging Affluent,Low,Consulting,8895.42,1
+237,Midwest,Mass Market,Low,Retail,3914.34,5
+238,Midwest,Small Business,Low,Hospitality,10992.36,2
+239,Northeast,Affluent,Medium,Retail,17549.82,5
+240,Northeast,Mass Market,Medium,Self-Employed,3279.47,5
+241,Midwest,Mass Market,High,Technology,10954.63,5
+242,South,Mass Market,High,Retail,9191.83,1
+243,South,Emerging Affluent,Medium,Retail,8935.12,6
+244,Midwest,Affluent,Low,Consulting,18410.1,8
+245,South,Small Business,Low,Consulting,14631.7,1
+246,Northeast,Affluent,Low,Hospitality,17581.62,5
+247,South,Mass Market,Low,Hospitality,790.43,1
+248,Northeast,Affluent,Low,Education,16288.16,5
+249,West,Emerging Affluent,Low,Education,15527.41,7
+250,Midwest,Affluent,Medium,Technology,20782.23,3
