@@ -105,7 +105,6 @@ The notebook contains two charts:
 ## Limitations
 
 
-- **Limited customer context:** Profiles include basic attributes and an existing rating, but no supporting KYC documentation, beneficial ownership records, or source-of-funds information.
 - **Limited transaction context:** There are no transaction descriptions or supporting documents establishing business purpose. A non-US country code is an activity classification, not evidence of illicit activity.
 - **Short observation window:** Six months of activity may not capture seasonality or a customer's longer-term behavior. The score does not compare observed inflows with a time-aligned expected-inflow baseline.
 - **Simple thresholds:** Percentile thresholds are population-relative, are not adjusted for customer segment, and are not validated regulatory cutoffs. Equal weights are an explainable design choice rather than an empirically calibrated model. Total volume overlaps with cash and wire amounts, so some indicators are correlated.
