@@ -4,7 +4,7 @@
 
 ## Business Problem
 
-In this simulation, Financial Crime Compliance needed a clear overview of payment activity and an explainable way to prioritize customers for analyst review. The analysis summarizes the transaction population, identifies customers with elevated activity indicators, and translates those indicators into a ranked case review table. The intended output is a review queue supported by observable transaction patterns.
+Financial Crime Compliance needed a clear overview of payment activity and an explainable way to prioritize customers for analyst review. The analysis summarizes the transaction population, identifies customers with elevated activity indicators, and translates those indicators into a ranked case review table. The intended output is a review queue supported by observable transaction patterns.
 
 ## Dataset
 
