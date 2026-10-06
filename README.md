@@ -47,6 +47,15 @@ I chose four activity indicators:
 
 For the first three indicators, I used the 90th percentile to identify customers in the top 10% for each amount. I added a separate point for an existing High risk rating, then used the combined score to create the final case review table.
 
+## Notebook Guide
+
+The [analysis notebook](aml_transaction_monitoring.ipynb) follows four stages after loading and previewing the two CSV files:
+
+- **Question A — Overall activity:** Summarize transaction counts, amounts, types, and inflows versus outflows, then create the activity chart.
+- **Question B — Notable customers:** Build customer-level metrics and flag high volume, cash deposits, international wires, and rapid wire activity.
+- **Question C — Review priority:** Combine the activity flags with the existing risk rating, assign priority tiers, and chart the score distribution.
+- **Case review table:** Present the highest-priority customers with their amounts, scores, and reasons for review.
+
 ## Three Strongest Findings
 
 1. **More money went out than came in during this period.** There were **3,729 transactions totaling $8,863,840.64**. Outflows made up **2,361 transactions (63.3%)** and **$5,035,710.27 (56.8% of the total amount)**. Card purchases were the largest transaction type by count and amount, with **1,001 transactions totaling $2,006,495.12**.
@@ -119,7 +128,6 @@ I created two charts: one showing total transaction amounts by type and directio
 ```text
 aml_customers.csv
 aml_transactions.csv
-data_dictionary.csv
 aml_analysis.sql
 aml_transaction_monitoring.ipynb
 chart1_overall_activity.png
@@ -129,8 +137,12 @@ README.md
 
 ## Running the Analysis
 
+**Recommended order:** Run the notebook first to reproduce the charts, review scores, and final case review table. Then run `aml_analysis.sql` if you want to inspect the complementary PostgreSQL summaries and rapid-wire candidates.
+
+The two analyses run independently from the same CSV files. The notebook reads the CSVs directly; it does not connect to PostgreSQL or consume SQL query results. The SQL file contains four standalone queries and does not generate files required by the notebook. SQL measures international outgoing wires, while the notebook's score includes both incoming and outgoing international wires, so those totals are not directly equivalent.
+
 1. Keep the notebook and both CSV files in the same folder.
 2. Install `pandas`, `numpy`, `matplotlib`, `seaborn`, `ipython`, `jinja2`, and Jupyter in your Python environment.
 3. Open Jupyter from the project folder, restart the notebook's kernel, and run all cells in order. The notebook also saves the two charts as PNG files.
-4. To run the SQL analysis, load the CSVs into PostgreSQL tables named `aml_customers` and `aml_transactions`. Use numeric types for amounts and a timestamp type for `transaction_ts`.
+4. To run the SQL analysis, load the CSVs into PostgreSQL tables named `aml_customers` and `aml_transactions`. Use numeric types for amounts and a timestamp type for `transaction_ts`. Then execute the four queries in `aml_analysis.sql` in order.
 
